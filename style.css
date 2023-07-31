@@ -1,0 +1,64 @@
+
+body{
+   text-align: center;
+   margin: 0;
+   padding: 0;
+    
+}
+
+/*.housing-windbnb{
+    margin: 30px;
+    
+}*/
+/*
+.housing-windbnb-details{
+display: flex;
+align-items: center;
+padding: 5px;
+}
+
+.housing-windbnb-host{
+    flex-grow: 1;*/
+
+/*.housing-windbnb{
+    display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+}*/
+
+.housing-windbnb-image{
+border-radius: 10px;
+}
+ 
+
+@media ( min-width: 600px){
+    .housing-windbnb{
+        display: flex;
+        justify-content: space-around;    
+    }
+   .header-details{
+       display: flex;
+       justify-content: space-between;
+       margin: 30px;
+   }
+   .details{
+       display: flex;
+       justify-content: space-between;
+       margin: 30px;
+   }
+   
+}
+
+@media  ( max-width: 500px){
+    .header-details{
+        display: flex;
+        justify-content: space-between;
+        margin: 30px;
+    }
+    .details{
+        display: flex;
+        justify-content: space-between;
+        margin: 30px;
+    }   
+}
+    
